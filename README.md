@@ -1,26 +1,31 @@
-# PortFolio_template
 
-Basic quasi-empty project dedicated to incorporation of multiple statics html sites.
+# Todo list
 
-### Gem included :
+_Je veux une application pour gerer mes listes de tâches , que je prepare a l'avance .
+Et puisque c'est un site internet, pourquoi pas Forcer les gens a s' autentifier.
+Ainsi on vas pouvoir par la suite (pas sur ce projet) faire des news-letter afin de cultiver
+l'affluence casuelle de notre site .  
+_Il faut des listes qui comportent des tâches et un auteur
+_Il me faut une durée sur les tâches et une dead line un nom et un contenu
+_Sur la vue principale il me faut pouvoir voir:
+             les listes avec leur taches associées
+             le temps total par listes (temps tache 1 + temp tache 2 etcetc)
+             (manip a faire dans un call back -controleur- ou un bidouillage dans la vue
+             pour gagner du temps j'autorise a faire du caca js-like :
+                                         faire de l'algo dans une vue )
+_Je devrais aussi pouvoir mettre une liste a finie ou à faire
+_Et les couleurs d'elements en fonction de si elles sont passées ou pas serais un plus
+TIPS:
+    duration:time
+    due_time:datetime
+    datetime and time are special classes with special methods like  "+ 1.year" or ".future?"
+      do your own researches.
+    if you do math on time or datetime sometimes it will return an enormous float number
+    cf https://fr.wikipedia.org/wiki/Epoch
+    it's a number of seconds , they are 60 n a min ,and 60 min in hours, well math call math...
+    AND FOR GOD SAKES:
+         Think before type or scaffold or hit enter !!!
+         If you cut the job in little pieces it's not so harsh and maybe easy!!!
 
-##### authentification:
-	gem 'devise'       
-##### upload image:
-	gem 'carrierwave'  <-- this one has been commented out 
-##### fancy forms with html5 validations:
-	gem 'bootstrap_form'
-##### Js and Scss library:
-	gem 'bootstrap-sass'
 
-### Setup commands
-
-```bash
-
-rake db:create
-rake db:migrate
-rake db:seed
-
-```
-
-> Seed.rb is provided.. 
+### Bsed on PortFolio template
