@@ -1,20 +1,20 @@
 
 # Todo list
 
-_Je veux une application pour gerer mes listes de tâches , que je prepare a l'avance .
+ ## Je veux une application pour gerer mes listes de tâches , que je prepare a l'avance .
 Et puisque c'est un site internet, pourquoi pas Forcer les gens a s' autentifier.
 Ainsi on vas pouvoir par la suite (pas sur ce projet) faire des news-letter afin de cultiver
 l'affluence casuelle de notre site .  
-_Il faut des listes qui comportent des tâches et un auteur
-_Il me faut une durée sur les tâches et une dead line un nom et un contenu
-_Sur la vue principale il me faut pouvoir voir:
+ Il faut des listes qui comportent des tâches et un auteur
+ Il me faut une durée sur les tâches et une dead line un nom et un contenu
+         Sur la vue principale il me faut pouvoir voir:
              les listes avec leur taches associées
              le temps total par listes (temps tache 1 + temp tache 2 etcetc)
              (manip a faire dans un call back -controleur- ou un bidouillage dans la vue
              pour gagner du temps j'autorise a faire du caca js-like :
                                          faire de l'algo dans une vue )
-_Je devrais aussi pouvoir mettre une liste a finie ou à faire
-_Et les couleurs d'elements en fonction de si elles sont passées ou pas serais un plus
+ Je devrais aussi pouvoir mettre une liste a finie ou à faire
+Et les couleurs d'elements en fonction de si elles sont passées ou pas serais un plus
 TIPS:
     duration:time
     due_time:datetime
